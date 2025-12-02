@@ -1,0 +1,443 @@
+{
+  "page_title": {
+    "home": "CoCoMusic - The All-in-One AI Assistant",
+    "download": "Download CoCoMusic - Multi-Platform AI Client",
+    "enterprise": "CoCoMusic Pro - Pro Solutions",
+    "theme": "CoCoMusic Theme Library - Customize Your AI Assistant"
+  },
+  "page_description": {
+    "home": "CoCoMusic AI is a powerful multi-model AI assistant supporting iOS, macOS, and Windows platforms. Quickly switch between multiple advanced LLM models to boost work and study efficiency.",
+    "download": "Download CoCoMusic AI client supporting Windows, macOS, and Linux platforms. Integrates 100+ AI models, completely free and open source.",
+    "enterprise": "CoCoMusic Pro provides a private deployment productivity platform for modern teams, supporting provider management, permission control, and data security.",
+    "theme": "Discover and share beautiful CoCoMusic themes to personalize your AI assistant interface. Supports both light and dark mode themes."
+  },
+  "nav": {
+    "home": "Home",
+    "download": "Download",
+    "theme": "Theme",
+    "docs": "Docs",
+    "contact": "Contact Us"
+  },
+  "test": "Test",
+  "home": "Home",
+  "download": "Download",
+  "enterprise": "Pro",
+  "theme": "Theme",
+  "forum": "Forum",
+  "docs": "Docs",
+  "project_intro": "Introduction",
+  "basic_tutorial": "Basic Tutorial",
+  "advanced_tutorial": "Advanced Tutorial",
+  "contribution": {
+    "title": "I want to contribute to the project, what can I do?",
+    "description": "If you like our project, please give us a star on <1>Github</1> to simply support us. If you are a technical expert, you are welcome to become one of our contributors. Of course, you can also participate in our documentation editing, share your experience with everyone, or answer questions for other users in the community. If you have any ideas or suggestions, please contact us via GitHub Issues or in the official community."
+  },
+  "feedback": "Feedback",
+  "contact": "Contact",
+  "banner": {
+    "powerful_ai_assistant": "Your Powerful AI Assistant",
+    "cherry_studio_title": "CoCoMusic",
+    "multi_provider_client": "AI conversation client with multi-provider integration",
+    "multi_provider_description": "CoCoMusic currently supports the integration of most service providers on the market and supports unified scheduling of models from multiple service providers.",
+    "privacy_security": "Ensure Privacy and Security",
+    "local_storage_title": "Local Data Storage",
+    "no_privacy_leak": "No need to worry about privacy leakage",
+    "local_storage_description": "All your usage data is stored locally and will not be uploaded to any third-party servers, and it supports model calls deployed locally.",
+    "personalized_knowledge_base": "Personalized Knowledge Base",
+    "knowledge_base_integration_title": "AI Knowledge Base Integration",
+    "your_personal_assistant": "Be your most intimate assistant",
+    "knowledge_base_description": "CoCoMusic has now launched the knowledge base function, which supports importing files in various formats and importing web pages to build your personalized knowledge base.",
+    "download_client": "Download Client"
+  },
+  "features": {
+    "title": "Main Features Introduction",
+    "description": "The following is only a partial introduction to the features. For more features, you can download the client to experience, or learn more in the <1>Official Documentation</1>.",
+    "learn_more": "Learn More",
+    "conversation": {
+      "title": "Large Model Conversation",
+      "description": "In addition to basic AI conversations, it can also help you with document or image conversations, and even formula and HTML previews."
+    },
+    "drawing": {
+      "title": "AI Drawing",
+      "description": "Supports a variety of drawing models, so you can give full play to your imagination and let CoCoMusic help you complete it."
+    },
+    "translation": {
+      "title": "AI Translation",
+      "description": "Whether it's the translation page or the conversation bar, CoCoMusic can quickly translate the content you enter."
+    },
+    "assistants": {
+      "title": "Over a Thousand Built-in Assistants",
+      "description": "CoCoMusic has built-in thousands of assistants in various categories, making you more efficient when using large models."
+    },
+    "knowledge_base": {
+      "title": "Multi-source Knowledge Base",
+      "description": "Whether it's a local file or a web page, it can be used as a knowledge source to quickly build your exclusive knowledge base."
+    },
+    "backup": {
+      "title": "Multiple Backup Methods",
+      "description": "Including local backup and cloud backup, worry-free switching between multiple devices, more convenient and safer."
+    }
+  },
+  "project": {
+    "title": "Project Related",
+    "intro": {
+      "title": "Project Introduction",
+      "description": "CoCoMusic is a multi-platform AI client that supports Windows, macOS, and Linux platforms, with mobile support coming in the future. Since July 2024, the project has iterated hundreds of versions. We are committed to creating a more efficient, secure, and user-friendly client that allows more people to enjoy the convenience of AI."
+    },
+    "goal": {
+      "title": "CoCoMusic's Goals",
+      "description": "CoCoMusic is dedicated to allowing users to focus on creation or enjoying the convenience of AI, rather than being shut out by various complicated configurations. Therefore, you only need to fill in the API key to start using it immediately. We also provide detailed usage documentation for your reference and learning. Our community is also very active and can quickly help you solve various usage problems."
+    },
+    "contribution": {
+      "title": "I want to contribute to the project, what can I do?",
+      "description": "If you like our project, welcome to give us a star on <1>Github</1> to simply support us. If you are a technical expert, you are welcome to become one of our contributors. Of course, you can also participate in our documentation editing to share your usage experience with everyone or help answer questions for other users in the community. If you have any ideas or suggestions, feel free to contact us through GitHub Issues or in the official community."
+    }
+  },
+  "community": {
+    "title": "Join Our Community",
+    "wechat_qr_alt": "WeChat Group QR Code",
+    "wechat_scan_prompt": "Scan to join WeChat group",
+    "qq_group": "QQ Group",
+    "zsxq": "ZhiShiXingQiu (Q&A)"
+  },
+  "footer": {
+    "description": "CoCoMusic is a multi-platform AI client, and we are committed to allowing more people to enjoy the convenience brought by AI.",
+    "cherry_studio": {
+      "title": "CoCoMusic",
+      "github": "Github",
+      "gitcode": "GitCode",
+      "docs": "Documentation",
+      "feedback": "Feedback"
+    },
+    "friendly_links": {
+      "title": "Friendly Links"
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "wechat_qr_alt": "WeChat Official Account QR Code",
+      "wechat_official_account": "Official WeChat Account",
+      "contact_info": "If you have any questions, you can check the documentation or ask in the community first.<0/>Or email us at <1>support@cherry-ai.com</1>"
+    },
+    "copyright": "Copyright © 2025 Shanghai Qianhui Technology Co., Ltd. <1>沪ICP备2021031071号-3</1>"
+  },
+  "statistics": {
+    "days_online": "Days Online",
+    "contributors": "Contributors",
+    "stars": "Stars"
+  },
+  "providers": {
+    "title": "CoCoMusic has a variety of service providers built-in",
+    "subtitle": "It also supports connecting to other service providers compatible with the API format of OpenAI/Anthropic."
+  },
+  "download_page": {
+    "cloud_download": "Cloud Download",
+    "quark_drive": "Quark Drive",
+    "click_download": "Click to Download",
+    "loading_version": "Getting version info...",
+    "version_error": "Failed to get version info, please download from the cloud drive temporarily",
+    "published_at": "Published At",
+    "published_at_label": "Published At: ",
+    "current_system": "Current System",
+    "other_versions": "Other Versions or Alternative Download",
+    "changelog": "Changelog",
+    "version": "Version",
+    "other_downloads_title": "Other Versions Download",
+    "download_with_arch": "Download ({{arch}})",
+    "download_apple": "Download (Apple Silicon)",
+    "download_intel": "Download (Intel)",
+    "download_now": "Download Now",
+    "windows_package": "Windows Installer Packages",
+    "windows_standard": "Windows Standard",
+    "windows_portable": "Windows Portable",
+    "windows_standard_arm": "Windows Standard (ARM)",
+    "windows_portable_arm": "Windows Portable (ARM)",
+    "macos_package": "macOS Installer Packages",
+    "macos_intel": "Intel Chip",
+    "macos_apple": "Apple Chip",
+    "linux_package": "Linux Installer Packages",
+    "linux_appimage": "AppImage Version",
+    "linux_appimage_arm": "AppImage Version (ARM)",
+    "linux_deb": "Deb Version",
+    "linux_deb_arm": "Deb Version (ARM)",
+    "linux_rpm": "RPM Version",
+    "linux_rpm_arm": "RPM Version (ARM)",
+    "intel_version": {
+      "title": "CoCoMusic Intel Core™ Ultra Edition",
+      "subtitle": "Localized AI solution deeply optimized for Intel hardware",
+      "description": "Optimized for Intel Core™ Ultra processors, providing you with a true local AI experience",
+      "download_button": "Download Intel Core™ Ultra Edition",
+      "features": {
+        "local_model": {
+          "title": "Local Large Model Running Capability",
+          "description": "No need to connect to the cloud, run Qwen3-4B, 8B, and even 14B language models of different parameter scales smoothly on your device"
+        },
+        "long_context": {
+          "title": "Long Context Processing",
+          "description": "Support up to 32K context window, enabling AI to understand and process long documents or complex conversation history for more in-depth content generation and analysis"
+        },
+        "knowledge_base": {
+          "title": "Local Knowledge Base Construction",
+          "description": "Integrated with RAG (Retrieval-Augmented Generation) technology, users can import personal documents and databases into the device, making AI a personal assistant that has learned your exclusive knowledge"
+        },
+        "protocol_extension": {
+          "title": "Protocol Extension Capability",
+          "description": "Implemented MCP (Model Context Protocol) extension, leaving interfaces for more diverse AI applications and developer ecosystem in the future"
+        }
+      }
+    }
+  },
+  "enterprise_page": {
+    "hero": {
+      "title": "CoCoMusic Enterprise",
+      "subtitle": "AI productivity and management platform built for modern teams and enterprises",
+      "contact_us": "Contact Us",
+      "learn_more": "Learn More"
+    },
+    "features": {
+      "title": "Core Advantages",
+      "subtitle": "Professional enterprise-grade features to help teams improve productivity",
+      "model_management": {
+        "title": "Unified Model Management",
+        "description": "Centrally access and manage various cloud large models, support local private deployment, employees can use without configuration"
+      },
+      "knowledge_base": {
+        "title": "Enterprise-grade Knowledge Base",
+        "description": "Build and manage team shared knowledge base, AI interaction based on unified knowledge to improve answer quality"
+      },
+      "permission_control": {
+        "title": "Fine-grained Permission Control",
+        "description": "Unified management backend, role-based permission allocation, flexible resource access control"
+      },
+      "private_deployment": {
+        "title": "Complete Private Deployment",
+        "description": "Support enterprise internal server deployment, private cloud environment deployment, 100% private and controllable data"
+      },
+      "backend_service": {
+        "title": "Reliable Backend Service",
+        "description": "Provide stable API services, enterprise-grade data backup and recovery mechanisms to ensure business continuity"
+      },
+      "security_compliance": {
+        "title": "Security and Compliance Assurance",
+        "description": "Meet the strictest data security and compliance requirements, support audit logs, ensure traceable data usage"
+      }
+    },
+    "comparison": {
+      "title": "Version Comparison",
+      "subtitle": "Choose the best plan for your team",
+      "table": {
+        "feature_category": "Feature Category",
+        "specific_item": "Specific Item",
+        "community": "Community",
+        "enterprise_startup": "Express Plan",
+        "enterprise": "Enterprise Plan",
+
+        "license_and_cost": "License & Cost",
+        "pricing_plan": "Pricing Plan (Scale & One-time Price)",
+        "pricing_community_title": "AGPL 3.0 Open Source License",
+        "pricing_community_price": "Free",
+        "pricing_startup_title": "Unlimited users:",
+        "pricing_startup_price": "¥ 5,000",
+        "pricing_enterprise_title": "Select company size:",
+        "pricing_enterprise_price": "1 - 50 people: <strong>¥ 50,000</strong><br/>51 - 200 people: <strong>¥ 100,000</strong><br/>201 - 1,000 people: <strong>¥ 200,000</strong><br/>1,000+ people: <strong>¥ 350,000</strong>",
+        "people": "people",
+        "annual_service_fee": "Annual Service Fee (Optional)",
+        "annual_fee_rate": "20% of one-time price",
+
+        "deployment_and_support": "Deployment & Support",
+        "deployment_method": "Deployment Method",
+        "deployment_single": "Single machine deployment",
+        "deployment_private": "Private deployment",
+        "tech_support": "Technical Support",
+        "support_community": "Community support",
+        "support_dedicated": "Dedicated support service (service fee required)",
+        "system_support": "System Support",
+        "system_community": "Windows 10+, macOS, Linux",
+        "system_enterprise": "Windows 7+, macOS, Linux",
+
+        "core_features": "Core Features",
+        "basic_features": "Basic Features",
+        "provider_management": "Provider Management",
+        "provider_management_full": "Provider Management Support",
+        "provider_management_builtin": "Use Built-in Provider",
+        "model_management": "Model Management",
+        "employee_management": "Employee Management",
+        "shared_knowledge_base": "Shared Knowledge Base",
+        "permission_control": "Permission Control",
+        "data_backup": "Data Backup",
+        "assistant_management": "Assistant Management",
+        "agent_management": "Agent Management",
+        "mcp_management": "MCP Management",
+        "miniprogram_management": "Mini-program Management"
+      }
+    },
+    "beta": {
+      "demo": {
+        "title": "Demo Environment",
+        "admin_portal": "Admin Portal: ",
+        "account": "Account: ",
+        "password": "Password: "
+      },
+      "download": {
+        "title": "Client",
+        "server_url": "Server Address: ",
+        "system_support": "Supports macOS and Windows systems",
+        "download_button": "Download Client",
+        "fallback_notice": "Unable to fetch version info, please download from GitCode",
+        "goto_gitcode": "Go to GitCode"
+      },
+      "manual": {
+        "title": "User Manual",
+        "description": "Thank you for participating in the CoCoMusic Enterprise Edition experience program. We provide detailed user manuals to help you quickly get started with all features.",
+        "view_manual": "View User Manual"
+      }
+    },
+    "express": {
+      "badge": "Recommended",
+      "title": "CoCoMusic Express Edition",
+      "subtitle": "Cost-effective AI solution designed for small and medium teams, one-time purchase, lifetime use",
+      "price_label": "One-time Price",
+      "period": "/ Lifetime",
+      "features": {
+        "unlimited_users": "Unlimited users",
+        "builtin_provider": "Built-in provider",
+        "quick_deployment": "Quick deployment",
+        "one_time_payment": "One-time payment"
+      },
+      "benefits": {
+        "fast_start": {
+          "title": "Quick Start",
+          "description": "No complex configuration required, use built-in provider to get online instantly, let your team start using AI quickly"
+        },
+        "cost_effective": {
+          "title": "Cost-Effective",
+          "description": "¥5,000 one-time price, unlimited users, ideal for small and medium teams with limited budget"
+        },
+        "enterprise_grade": {
+          "title": "Enterprise Features",
+          "description": "Includes core enterprise features such as employee management and model management to meet team collaboration needs"
+        }
+      },
+      "cta_button": "Contact for Express Edition",
+      "cta_note": "Contact us for detailed plans and demos"
+    },
+    "support": {
+      "title": "Get Support",
+      "description": "If you are interested in CoCoMusic Enterprise Edition, please contact our business team",
+      "send_email": "Send Email",
+      "business_cooperation": "Business Cooperation",
+      "scan_qrcode": "Scan to Contact Us"
+    }
+  },
+  "contributors": {
+    "project_contributors": "Project Contributors",
+    "doc_contributors": "Documentation Contributors",
+    "contribution_stats": "Contributions: {{contributions}} commits ({{rate}}%)",
+    "partial": "(Partial)"
+  },
+  "star_history": {
+    "total_stars": "Total Stars",
+    "daily_stars": "Daily Stars",
+    "cumulative_stars": "Cumulative Stars",
+    "daily_increase": "Daily Increase",
+    "data_view": "Data View",
+    "close": "Close",
+    "refresh": "Refresh",
+    "restore": "Restore",
+    "save_as_image": "Save as Image",
+    "year_suffix": "",
+    "month_suffix": "/",
+    "day_suffix": ""
+  },
+  "telegram": {
+    "channel_members": "Channel Members: ",
+    "current_online": "Currently Online: "
+  },
+  "theme_page": {
+    "title": "Theme Market",
+    "subtitle": "Discover and share CoCoMusic themes",
+    "preview_button": "Preview",
+    "search_placeholder": "Search themes... (supports #tag @author keywords)",
+    "search_button": "Search",
+    "search_help": "Search Help:",
+    "search_help_tips": {
+      "tag_search": "Use #keyword to search for content containing that tag",
+      "author_search": "Use @author to search for a specific author",
+      "combined_search": "Supports combined search, separate # @ search content with spaces"
+    },
+    "submit_theme": "Submit Theme",
+    "author_by": "By:",
+    "tags": "Tags:",
+    "version": "Version",
+    "created": "Created",
+    "light_mode": "Light",
+    "dark_mode": "Dark",
+    "copy_code": "Copy Code",
+    "copy_cdn": "Copy CDN",
+    "copied": "Copied",
+    "no_preview": "No Preview",
+    "example_image": "Example Image",
+    "light_mode_preview": "Light Mode Preview",
+    "dark_mode_preview": "Dark Mode Preview",
+    "preview_example": "Example Preview",
+    "view_example": "View Example",
+    "loading": "Searching...",
+    "loading_more": "Loading more...",
+    "all_loaded": "All themes loaded",
+    "load_more": "Load More",
+    "clear_filters": "Clear Filters",
+    "clear_all_filters": "Clear All Filters",
+    "no_results": "No matching themes found",
+    "loading_error": "Loading failed",
+    "refresh_page": "Refresh Page",
+    "search_filter": {
+      "search_label": "Search:"
+    },
+    "notifications": {
+      "not_found_tag": "No themes found with this tag",
+      "not_found_author": "No themes found by this author",
+      "data_fetch_error": "Failed to load data, please try again later"
+    },
+    "submit_modal": {
+      "title": "Submit Theme",
+      "name_label": "Theme Name",
+      "name_placeholder": "Enter theme name",
+      "author_label": "Author Name",
+      "author_placeholder": "Enter author name",
+      "author_required": "Please enter author name",
+      "support_light_mode": "Support Light Mode",
+      "support_dark_mode": "Support Dark Mode",
+      "version_label": "Version",
+      "version_placeholder": "e.g., 1.0",
+      "version_hint": "Format: numbers and dots, e.g., 1.0 or 1.2.3",
+      "code_label": "CSS Code",
+      "code_placeholder": "Paste your CSS code...",
+      "cdn_link_label": "CSS File Link (Optional)",
+      "cdn_link_placeholder": "If you provide a public CDN link or file link, you can fill it in",
+      "light_image_label": "Light Mode Preview Image",
+      "dark_image_label": "Dark Mode Preview Image",
+      "upload_image": "Click to upload image",
+      "remove_image": "Remove Image",
+      "image_size_error": "Image size cannot exceed 2MB",
+      "image_format_hint": "Supports JPG, PNG, GIF, WEBP formats, max 2MB, recommended aspect ratio 16:9, non-compliant images will be cropped.",
+      "preview_background_hint": "Preview images should include background outside the window, example image:",
+      "tags_label": "Tags",
+      "tags_placeholder": "Enter tags then press Enter, separate multiple tags with commas",
+      "tags_hint": "Tags don't support punctuation, only Chinese, English and numbers",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "submitting": "Submitting...",
+      "close": "Close",
+      "success_title": "Submitted Successfully!",
+      "success_message": "Your theme has been submitted for review, we will process it as soon as possible.",
+      "submit_error": "Submission failed, please try again",
+      "validation": {
+        "name_required": "Please enter theme name",
+        "code_required": "Please enter CSS code",
+        "light_image_required": "Please upload light mode preview image",
+        "dark_image_required": "Please upload dark mode preview image",
+        "file_type_error": "Please upload a correct image file format"
+      },
+      "version_invalid": "Invalid version format"
+    }
+  }
+}

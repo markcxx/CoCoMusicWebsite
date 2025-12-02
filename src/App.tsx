@@ -1,0 +1,31 @@
+import { useEffect } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { script } from '@/assets/js/script.ts'
+import ScrollToTop from '@/components/ScrollToTop'
+import SimpleHeader from '@/components/website/SimpleHeader.tsx'
+import DownloadPage from '@/pages/download'
+import EnterprisePage from '@/pages/enterprise'
+import EnterpriseDownloadPage from '@/pages/enterprise-download'
+import HomePage from '@/pages/home'
+
+function App() {
+  useEffect(() => {
+    setTimeout(script, 500)
+  }, [])
+
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <SimpleHeader />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/download" element={<DownloadPage />} />
+        <Route path="/enterprise" element={<EnterprisePage />} />
+        <Route path="/enterprise/download" element={<EnterpriseDownloadPage />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App

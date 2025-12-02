@@ -1,0 +1,9 @@
+:root{
+  --theme-color: #7EBBFF;
+  --primary-color: #EEF7FF;
+  --text-color: rgba(106, 106, 106, 1);
+  --title-color: rgba(17, 17, 17, 1);
+  --white-color:#FFFFFF;
+  --text-font: 'Hanken Grotesk';
+  --title-font: 'Outfit';
+}

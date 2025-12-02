@@ -1,0 +1,410 @@
+{
+  "page_title": {
+    "home": "CoCoMusic 官方网站 - 多平台聚合音乐播放软件",
+    "download": "下载 CoCoMusic - 多平台聚合音乐播放软件",
+    "enterprise": "CoCoMusic Pro版 - 个人高级音乐体验"
+  },
+  "page_description": {
+    "home": "CoCoMusic 是一款跨平台聚合音乐播放器，支持 Windows、macOS 和 Linux。整合网易云音乐、QQ音乐等平台的歌曲与歌单，提供流畅、稳定的播放体验。",
+    "download": "下载 CoCoMusic 客户端，支持 Windows、macOS、Linux 平台。聚合主流音乐平台，简单好用。",
+    "enterprise": "CoCoMusic Pro版为个人用户提供更高级功能，包括高性能音频、主题自定义、桌面歌词、备份与同步等，让你的音乐体验更上一层。"
+  },
+  "nav": {
+    "home": "主页",
+    "download": "下载",
+    "docs": "文档",
+    "contact": "联系我们"
+  },
+  "test": "测试",
+  "home": "主页",
+  "download": "下载",
+  "enterprise": "Pro版",
+  "theme": "主题",
+  "agents": "我的歌单",
+  "forum": "论坛",
+  "docs": "文档",
+  "project_intro": "项目简介",
+  "basic_tutorial": "基础教程",
+  "advanced_tutorial": "进阶教程",
+  "contribution": "项目贡献",
+  "feedback": "问题&反馈",
+  "contact": "联系",
+  "banner": {
+    "powerful_ai_assistant": "您的高质量多平台聚合音乐播放器",
+    "cherry_studio_title": "CoCoMusic",
+    "multi_provider_client": "支持多音乐平台聚合的播放器",
+    "multi_provider_description": "整合网易云音乐、QQ音乐等平台的内容，统一管理收藏与歌单。",
+    "privacy_security": "保障隐私安全",
+    "local_storage_title": "数据本地储存",
+    "no_privacy_leak": "无需担心隐私泄露",
+    "local_storage_description": "播放记录、收藏与设置均保存在本地，可选择云同步。",
+    "personalized_knowledge_base": "个性化音乐库",
+    "knowledge_base_integration_title": "音乐库管理",
+    "your_personal_assistant": "更懂你的音乐播放器",
+    "knowledge_base_description": "支持导入本地文件与在线歌单，快速构建你的个人音乐库。",
+    "download_client": "下载客户端"
+  },
+  "features": {
+    "title": "主要功能介绍",
+    "description": "以下仅为部分功能介绍，更多功能可以下载客户端体验，或在<1>官方文档</1>中了解。",
+    "learn_more": "详细了解",
+    "conversation": {
+      "title": "多平台聚合播放",
+      "description": "统一搜索与播放来自网易云音乐、QQ音乐等平台的歌曲与歌单。"
+    },
+    "drawing": {
+      "title": "歌词与音效",
+      "description": "支持逐字/滚动歌词显示，提供均衡器与音效增强。"
+    },
+    "translation": {
+      "title": "歌单管理",
+      "description": "创建、编辑、导入/导出歌单，跨平台同步收藏。"
+    },
+    "assistants": {
+      "title": "主题与外观",
+      "description": "丰富主题与外观设置，支持亮暗模式与自定义样式。"
+    },
+    "knowledge_base": {
+      "title": "搜索与推荐",
+      "description": "快速搜索、排行榜与个性化推荐，发现更多好歌。"
+    },
+    "backup": {
+      "title": "备份与同步",
+      "description": "本地备份与云端同步，多个设备无忧切换。"
+    }
+  },
+  "project": {
+    "title": "项目相关",
+    "intro": {
+      "title": "项目简介",
+      "description": "CoCoMusic 是一个支持多平台的聚合音乐播放器，支持 Windows、macOS、Linux 等系统。我们致力于提供轻量、稳定、好用的音乐体验。"
+    },
+    "goal": {
+      "title": "CoCoMusic 的目标",
+      "description": "CoCoMusic 让用户专注于听歌与管理音乐库，而不是被繁琐配置打扰。你只需配置音乐来源或登录平台即可开始收听。我们提供详细文档与活跃社区，帮助你快速上手。"
+    },
+    "contribution": {
+      "title": "我想为项目做一些贡献，都能做什么？",
+      "description": "如果您喜欢我们的项目，欢迎在<1>Github</1>给我们一个 star 来简单的支持我们，如果您是技术大佬欢迎成为我们的贡献者之一，当然您也可以参与到我们的文档编辑当中，将您的使用经验分享给大家或者在社群为其他用户答疑解惑。如果您有任何想法或建议，欢迎通过 GitHub Issues 或在官方社群与我们联系。"
+    }
+  },
+  "community": {
+    "title": "加入我们的交流群",
+    "wechat_qr_alt": "QQ群二维码",
+    "wechat_scan_prompt": "扫码加入QQ群"
+  },
+  "footer": {
+    "description": "CoCoMusic 是一个支持多平台的聚合音乐播放器，我们致力于让更多人能够享受音乐的乐趣。",
+    "cherry_studio": {
+      "title": "CoCoMusic",
+      "github": "Github",
+      "gitcode": "GitCode",
+      "docs": "使用文档",
+      "feedback": "问题反馈"
+    },
+    "friendly_links": {
+      "title": "友情链接"
+    },
+    "contact_us": {
+      "title": "联系我们",
+      "wechat_qr_alt": "QQ群二维码",
+      "wechat_official_account": "官方QQ群",
+      "contact_info": "如果您有使用上的问题可以先查看文档或社群中提问<0/>或邮件联系 <1>markcxx798@163.com</1>"
+    },
+    "copyright": "Copyright © 2025 markcxx <1>蜀ICP备2025161180号</1>"
+  },
+  "statistics": {
+    "days_online": "上线天数",
+    "contributors": "贡献者",
+    "stars": "收藏量"
+  },
+  "providers": {
+    "title": "CoCoMusic 内置了多种音乐平台",
+    "subtitle": "同时也支持接入兼容接口的其他音乐来源"
+  },
+  "pages_overview": {
+    "title": "页面一览",
+    "items": {
+      "recommend": {
+        "title": "为我推荐",
+        "description": "根据你的收藏与播放记录，智能推荐热歌与小众宝藏，首页即刻发现新鲜音乐。",
+        "image": "/img/cocomusic.png"
+      },
+      "playlist": {
+        "title": "歌单界面",
+        "description": "清晰的分组与标签，支持导入/导出，跨平台同步收藏与自定义排序。",
+        "image": "/img/playlist.png"
+      },
+      "lyrics_visual": {
+        "title": "歌词页面",
+        "description": "逐字高亮与滚动歌词，搭配实时频谱动效，沉浸式视觉与听觉体验。",
+        "image": "/img/lyrics.png"
+      },
+      "recommend_dark": {
+        "title": "暗色主题",
+        "description": "夜间模式更护眼，精选推荐在暗色主题下同样优雅易读。",
+        "image": "/img/cocomusic-dark.png"
+      },
+      "desktop_lyrics": {
+        "title": "桌面歌词",
+        "description": "悬浮窗显示当前歌词，大小与透明度可调，支持置顶与多屏。",
+        "image": "/img/desktop-lyrics.png"
+      }
+    }
+  },
+  "download_page": {
+    "hero_title": "下载 CoCoMusic",
+    "hero_subtitle": "全平台支持，沉浸式音乐体验",
+    "recommended_version": "推荐版本",
+    "download_for_windows": "下载 Windows 版",
+    "download_btn_subtitle": "64位 安装版 | v{{version}}",
+    "view_all_downloads": "查看所有版本",
+    "features": {
+      "title": "为什么选择 CoCoMusic",
+      "subtitle": "不仅仅是播放器，更是你的音乐管理中心",
+      "privacy": {
+        "title": "隐私优先",
+        "desc": "本地数据存储，无需登录即可使用，你的听歌记录只属于你"
+      },
+      "performance": {
+        "title": "极致性能",
+        "desc": "基于 Rust 与 React 构建，毫秒级启动，极低的内存占用"
+      },
+      "extensions": {
+        "title": "插件生态",
+        "desc": "支持自定义源与扩展，无限可能的音乐体验"
+      },
+      "ui": {
+        "title": "精美界面",
+        "desc": "沉浸式歌词、频谱可视化、自适应主题色"
+      }
+    },
+    "requirements": {
+      "title": "系统需求",
+      "windows": "Windows 10 或更高版本 (x64/Arm64)",
+      "macos": "macOS 11.0 或更高版本 (Intel/Apple Silicon)",
+      "linux": "主流 Linux 发行版 (Ubuntu 20.04+, Debian 11+)"
+    },
+    "cloud_download": "网盘下载",
+    "quark_drive": "夸克网盘",
+    "click_download": "点此下载",
+    "loading_version": "正在获取版本信息...",
+    "version_error": "无法获取版本信息，请临时使用网盘链接下载",
+    "published_at": "发布时间",
+    "published_at_label": "发布时间：",
+    "current_system": "当前系统",
+    "other_versions": "其他版本或备用线路下载",
+    "changelog": "更新日志",
+    "version": "版本",
+    "other_downloads_title": "其他版本下载",
+    "download_with_arch": "立即下载 ({{arch}})",
+    "download_apple": "下载 (Apple 芯片)",
+    "download_intel": "下载 (Intel 芯片)",
+    "download_now": "立即下载",
+    "windows_package": "Windows 系统安装包",
+    "windows_standard": "Windows 标准版",
+    "windows_portable": "Windows 便携版",
+    "windows_standard_arm": "Windows 标准版 (ARM 版)",
+    "windows_portable_arm": "Windows 便携版 (ARM 版)",
+    "macos_package": "MacOS 系统安装包",
+    "macos_intel": "Intel 芯片",
+    "macos_apple": "Apple 芯片",
+    "linux_package": "Linux 系统安装包",
+    "linux_appimage": "AppImage 版本",
+    "linux_appimage_arm": "AppImage 版本 (ARM 版)",
+    "linux_deb": "Deb 版本",
+    "linux_deb_arm": "Deb 版本 (ARM 版)",
+    "linux_rpm": "RPM 版本",
+    "linux_rpm_arm": "RPM 版本 (ARM 版)",
+    "intel_version": {
+      "title": "CoCoMusic 高性能音频版",
+      "subtitle": "专为现代硬件优化的高性能音乐播放方案",
+      "description": "基于硬件加速与音频优化，为您提供更低延迟、更稳定的播放体验",
+      "download_button": "下载高性能音频版",
+      "features": {
+        "local_model": {
+          "title": "硬件加速播放",
+          "description": "针对现代处理器优化，提供低延迟与稳定播放"
+        },
+        "long_context": {
+          "title": "超长播放队列",
+          "description": "支持大型播放列表与长时间播放不中断"
+        },
+        "knowledge_base": {
+          "title": "本地音乐库构建",
+          "description": "支持本地音乐文件管理与封面/标签整理"
+        },
+        "protocol_extension": {
+          "title": "音频协议扩展",
+          "description": "兼容更多音频格式与输出设备"
+        }
+      }
+    }
+  },
+  "enterprise_page": {
+    "hero": {
+      "title": "CoCoMusic Pro版",
+      "subtitle": "为个人用户打造的高级音乐体验与个性化功能",
+      "contact_us": "联系我们",
+      "learn_more": "了解更多"
+    },
+    "features": {
+      "title": "核心优势",
+      "subtitle": "面向个人的高级功能，全面提升音乐体验",
+      "model_management": {
+        "title": "多平台聚合播放",
+        "description": "统一搜索与播放来自网易云音乐、QQ音乐等平台的歌曲与歌单"
+      },
+      "knowledge_base": {
+        "title": "个人音乐库",
+        "description": "导入本地文件与在线歌单，构建你的专属音乐库"
+      },
+      "permission_control": {
+        "title": "高级歌词与音效",
+        "description": "逐字/滚动歌词、均衡器与音效增强，沉浸式播放体验"
+      },
+      "private_deployment": {
+        "title": "主题与外观",
+        "description": "亮暗模式与主题自定义，外观与细节随心设置"
+      },
+      "backend_service": {
+        "title": "备份与同步",
+        "description": "本地备份与云同步，多个设备无缝切换"
+      },
+      "security_compliance": {
+        "title": "桌面歌词与设备",
+        "description": "桌面歌词悬浮窗、置顶与多屏支持，设备间体验一致"
+      }
+    },
+    "comparison": {
+      "title": "版本对比",
+      "subtitle": "选择最适合你的个人方案",
+      "table": {
+        "feature_category": "特性分类",
+        "specific_item": "具体项目",
+        "community": "社区版",
+        "enterprise_startup": "Pro 轻量版",
+        "enterprise": "Pro版",
+
+        "license_and_cost": "许可与费用",
+        "pricing_plan": "定价方案",
+        "pricing_community_title": "AGPL 3.0 开源协议",
+        "pricing_community_price": "免费",
+        "pricing_startup_title": "适合个人用户",
+        "pricing_startup_price": "联系咨询",
+        "pricing_enterprise_title": "升级 Pro 版",
+        "pricing_enterprise_price": "联系咨询",
+        "people": "人",
+        "annual_service_fee": "年度服务费 (可选)",
+        "annual_fee_rate": "买断价的 20%",
+
+        "deployment_and_support": "部署与支持",
+        "deployment_method": "部署方式",
+        "deployment_single": "单机部署",
+        "deployment_private": "私有化部署",
+        "tech_support": "技术支持",
+        "support_community": "社区支持",
+        "support_dedicated": "专属支持服务 (需服务费)",
+        "system_support": "系统支持",
+        "system_community": "Windows 10+, macOS, Linux",
+        "system_enterprise": "Windows 7+, macOS, Linux",
+
+        "core_features": "核心功能",
+        "basic_features": "基础功能",
+        "provider_management": "平台管理",
+        "provider_management_full": "支持多平台聚合",
+        "provider_management_builtin": "支持内置平台",
+        "model_management": "来源管理",
+        "employee_management": "账号管理",
+        "shared_knowledge_base": "共享音乐库",
+        "permission_control": "权限控制",
+        "data_backup": "数据备份",
+        "assistant_management": "主题管理",
+        "agent_management": "设备管理",
+        "mcp_management": "接口对接",
+        "miniprogram_management": "扩展管理"
+      }
+    },
+    "beta": {
+      "demo": {
+        "title": "体验环境",
+        "admin_portal": "管理后台：",
+        "account": "账号：",
+        "password": "密码："
+      },
+      "download": {
+        "title": "客户端",
+        "server_url": "服务端地址：",
+        "system_support": "支持 macOS 和 Windows 系统",
+        "download_button": "下载客户端",
+        "fallback_notice": "无法获取版本信息，请前往 GitCode 下载",
+        "goto_gitcode": "前往 GitCode 下载"
+      },
+      "manual": {
+        "title": "使用手册",
+        "description": "感谢您参与 CoCoMusic Pro版的体验活动。我们提供详细的使用手册，帮助您快速上手所有功能。",
+        "view_manual": "查看使用手册"
+      }
+    },
+    "express": {
+      "badge": "推荐方案",
+      "title": "CoCoMusic Express 版",
+      "subtitle": "专为中小团队打造的高性价比音乐解决方案,一次买断,永久使用",
+      "price_label": "买断价格",
+      "period": "/ 永久",
+      "features": {
+        "unlimited_users": "不限制使用人数",
+        "builtin_provider": "使用内置平台",
+        "quick_deployment": "快速部署上线",
+        "one_time_payment": "一次性买断费用"
+      },
+      "benefits": {
+        "fast_start": {
+          "title": "快速启动",
+          "description": "无需复杂配置,使用内置平台即刻上线,让团队快速开始使用"
+        },
+        "cost_effective": {
+          "title": "性价比高",
+          "description": "5000 元买断价格,不限人数,适合预算有限的中小团队"
+        },
+        "enterprise_grade": {
+          "title": "企业级功能",
+          "description": "包含账号管理、来源管理等核心企业功能,满足团队协作需求"
+        }
+      },
+      "cta_button": "立即咨询 Express 版",
+      "cta_note": "联系我们获取详细方案和演示"
+    },
+    "support": {
+      "title": "获取支持",
+      "description": "如需了解或升级到 CoCoMusic Pro版，欢迎与我们联系",
+      "send_email": "发送邮件",
+      "business_cooperation": "使用咨询",
+      "scan_qrcode": "扫码联系我们"
+    }
+  },
+  "contributors": {
+    "project_contributors": "项目贡献者",
+    "doc_contributors": "文档贡献者",
+    "contribution_stats": "贡献: {{contributions}} commits ({{rate}}%)",
+    "partial": "(部分)"
+  },
+  "star_history": {
+    "total_stars": "总 Star 数",
+    "daily_stars": "日增 Star 数",
+    "cumulative_stars": "累计 Star 数",
+    "daily_increase": "日增 Star 数",
+    "data_view": "数据视图",
+    "close": "关闭",
+    "refresh": "刷新",
+    "restore": "还原",
+    "save_as_image": "保存为图片",
+    "year_suffix": "年",
+    "month_suffix": "月",
+    "day_suffix": "日"
+  },
+  "telegram": {
+    "channel_members": "频道成员：",
+    "current_online": "当前在线："
+  }
+}
