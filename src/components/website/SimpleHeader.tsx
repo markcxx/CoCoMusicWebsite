@@ -53,24 +53,6 @@ const SimpleHeader: React.FC = () => {
                   >
                     <Link to="/enterprise">{t("enterprise")}</Link>
                   </li>
-                  <li>
-                    <a
-                      href="https://docs.cherry-ai.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {t("nav.docs")}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://docs.cherry-ai.com/contact-us/questions"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {t("nav.contact")}
-                    </a>
-                  </li>
                 </ul>
               </nav>
 
