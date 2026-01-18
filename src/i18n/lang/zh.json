@@ -192,6 +192,7 @@
     "version_error": "无法获取版本信息，请临时使用网盘链接下载",
     "published_at": "发布时间",
     "published_at_label": "发布时间：",
+    "activation_tip": "温馨提示：为防止滥用，本软件采用激活码验证机制。软件完全免费，激活后可永久使用。请加入官方交流群获取激活码。",
     "current_system": "当前系统",
     "other_versions": "其他版本或备用线路下载",
     "changelog": "更新日志",

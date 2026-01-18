@@ -192,6 +192,7 @@
     "version_error": "Failed to fetch version info, temporarily use the cloud link",
     "published_at": "Published At",
     "published_at_label": "Published At: ",
+    "activation_tip": "Tip: To prevent abuse, this software uses an activation code mechanism. It is completely free and permanent after activation. Please join the official group to get the code.",
     "current_system": "Current System",
     "other_versions": "Other versions or alternative download",
     "changelog": "Changelog",
