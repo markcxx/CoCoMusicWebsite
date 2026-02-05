@@ -51,6 +51,8 @@ const DownloadHero: FC<DownloadHeroProps> = ({
             {/* 主推下载按钮 */}
             <a
               href={downloadUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`group relative flex items-center gap-3 rounded-full bg-[var(--theme-color)] px-8 py-4 text-white shadow-lg shadow-blue-500/30 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/40 ${loading ? "pointer-events-none opacity-70" : ""}`}
             >
               <Download className="h-6 w-6 transition-transform group-hover:scale-110" />

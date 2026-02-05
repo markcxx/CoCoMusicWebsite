@@ -1,94 +1,101 @@
-import { useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
-import { getSystemInfo, SystemInfo } from '../utils/systemDetection'
+import { getSystemInfo, SystemInfo } from "../utils/systemDetection";
 
 export interface Asset {
-  name: string
-  browser_download_url: string
-  type: string
+  name: string;
+  browser_download_url: string;
+  type: string;
 }
 
 export interface VersionData {
-  version: string
-  publishedAt: string
-  changelog: string
-  assets: Asset[]
+  version: string;
+  publishedAt: string;
+  changelog: string;
+  assets: Asset[];
 }
 
 export interface DownloadItem {
-  name: string
-  url: string
-  desc: string
+  name: string;
+  url: string;
+  desc: string;
 }
 
 export interface DownloadGroup {
-  title: string
-  items: DownloadItem[]
+  title: string;
+  items: DownloadItem[];
 }
 
 export interface DownloadUrls {
-  windows: DownloadGroup
-  macos: DownloadGroup
-  linux: DownloadGroup
+  windows: DownloadGroup;
+  macos: DownloadGroup;
+  linux: DownloadGroup;
 }
 
 export function useVersionData() {
-  const { t } = useTranslation()
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [versionData, setVersionData] = useState<VersionData | null>(null)
-  const [systemInfo, setSystemInfo] = useState<SystemInfo[] | null>(null)
-  const [downloadUrls, setDownloadUrls] = useState<DownloadUrls | null>(null)
+  const { t } = useTranslation();
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [versionData, setVersionData] = useState<VersionData | null>(null);
+  const [systemInfo, setSystemInfo] = useState<SystemInfo[] | null>(null);
+  const [downloadUrls, setDownloadUrls] = useState<DownloadUrls | null>(null);
 
   useEffect(() => {
     const fetchVersionData = async () => {
       try {
-        const response = await fetch('https://api.github.com/repos/markcxx/CoCoMusicRelease/releases/latest')
-        const data = await response.json()
+        const response = await fetch(
+          "https://api.github.com/repos/markcxx/CoCoMusicRelease/releases/latest",
+        );
+        const data = await response.json();
 
-        const version = data.tag_name
-        const cleanVersion = version.replace(/^v/, '')
+        const version = data.tag_name;
+        const cleanVersion = version.replace(/^v/, "");
 
         const versionData: VersionData = {
           version,
           publishedAt: new Date(data.created_at).toLocaleDateString(),
           changelog: data.body,
-          assets: data.assets
-        }
+          assets: data.assets,
+        };
 
         // Helper to find asset by pattern
-        const findAsset = (pattern: RegExp) => data.assets.find((a: Asset) => pattern.test(a.name))
+        const findAsset = (pattern: RegExp) =>
+          data.assets.find((a: Asset) => pattern.test(a.name));
 
         // Fallback to construction if asset not found in list (or if waiting for upload)
         const getUrl = (filename: string) =>
-          `https://github.com/markcxx/CoCoMusicRelease/releases/download/${version}/${filename}`
+          `https://github.com/markcxx/CoCoMusicRelease/releases/download/${version}/${filename}`;
 
         const downloadUrls: DownloadUrls = {
           windows: {
-            title: t('download_page.windows_package'),
+            title: t("download_page.windows_package"),
             items: [
               {
                 name: `CoCoMusic-${cleanVersion}-setup.exe`,
-                url: findAsset(/setup.*\.exe$/i)?.browser_download_url || getUrl(`CoCoMusic-${cleanVersion}-setup.exe`),
-                desc: t('download_page.windows_standard')
+                url:
+                  findAsset(/setup.*\.exe$/i)?.browser_download_url ||
+                  getUrl(`CoCoMusic-${cleanVersion}-setup.exe`),
+                desc: t("download_page.windows_standard"),
               },
               {
                 name: `CoCoMusic-${cleanVersion}-portable.exe`,
                 url:
                   findAsset(/portable.*\.exe$/i)?.browser_download_url ||
                   getUrl(`CoCoMusic-${cleanVersion}-portable.exe`),
-                desc: t('download_page.windows_portable')
-              }
-            ]
+                desc: t("download_page.windows_portable"),
+              },
+            ],
           },
           macos: {
-            title: t('download_page.macos_package'),
+            title: t("download_page.macos_package"),
             items: [
               {
                 name: `CoCoMusic-${cleanVersion}-x64.dmg`,
-                url: findAsset(/x64.*\.dmg$/i)?.browser_download_url || getUrl(`CoCoMusic-${cleanVersion}-x64.dmg`),
-                desc: t('download_page.macos_intel')
+                url:
+                  findAsset(/x64.*\.dmg$/i)?.browser_download_url ||
+                  getUrl(`CoCoMusic-${cleanVersion}-x64.dmg`),
+                desc: t("download_page.macos_intel"),
               },
               {
                 name: `CoCoMusic-${cleanVersion}-aarch64.dmg`,
@@ -96,41 +103,45 @@ export function useVersionData() {
                   findAsset(/aarch64.*\.dmg$/i)?.browser_download_url ||
                   findAsset(/arm64.*\.dmg$/i)?.browser_download_url ||
                   getUrl(`CoCoMusic-${cleanVersion}-aarch64.dmg`),
-                desc: t('download_page.macos_apple')
-              }
-            ]
+                desc: t("download_page.macos_apple"),
+              },
+            ],
           },
           linux: {
-            title: t('download_page.linux_package'),
+            title: t("download_page.linux_package"),
             items: [
               {
                 name: `CoCoMusic-${cleanVersion}-x86_64.AppImage`,
                 url:
                   findAsset(/x86_64.*\.AppImage$/i)?.browser_download_url ||
                   getUrl(`CoCoMusic-${cleanVersion}-x86_64.AppImage`),
-                desc: t('download_page.linux_appimage')
+                desc: t("download_page.linux_appimage"),
               },
               {
                 name: `CoCoMusic-${cleanVersion}-amd64.deb`,
-                url: findAsset(/amd64.*\.deb$/i)?.browser_download_url || getUrl(`CoCoMusic-${cleanVersion}-amd64.deb`),
-                desc: t('download_page.linux_deb')
-              }
-            ]
-          }
-        }
+                url:
+                  findAsset(/amd64.*\.deb$/i)?.browser_download_url ||
+                  getUrl(`CoCoMusic-${cleanVersion}-amd64.deb`),
+                desc: t("download_page.linux_deb"),
+              },
+            ],
+          },
+        };
 
-        setVersionData(versionData)
-        setSystemInfo(getSystemInfo(version))
-        setDownloadUrls(downloadUrls)
-        setLoading(false)
+        setVersionData(versionData);
+        setSystemInfo(getSystemInfo(version));
+        setDownloadUrls(downloadUrls);
+        setLoading(false);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to fetch version data')
-        setLoading(false)
+        setError(
+          err instanceof Error ? err.message : "Failed to fetch version data",
+        );
+        setLoading(false);
       }
-    }
+    };
 
-    fetchVersionData()
-  }, [t])
+    fetchVersionData();
+  }, [t]);
 
-  return { loading, error, versionData, systemInfo, downloadUrls }
+  return { loading, error, versionData, systemInfo, downloadUrls };
 }

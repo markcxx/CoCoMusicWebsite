@@ -1,13 +1,14 @@
 // @ts-nocheck
 
 // 引入 GSAP
-const gsapScript = document.createElement('script')
-gsapScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js'
-document.head.appendChild(gsapScript)
+const gsapScript = document.createElement("script");
+gsapScript.src =
+  "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js";
+document.head.appendChild(gsapScript);
 
 export default class SearchOverlay {
   constructor() {
-    this.init()
+    this.init();
   }
 
   init() {
@@ -29,10 +30,10 @@ export default class SearchOverlay {
                     </div>
                 </div>
             </div>
-        `
+        `;
 
     // 添加样式
-    const style = document.createElement('style')
+    const style = document.createElement("style");
     style.textContent = `
             .cherry-search-overlay {
                 position: fixed;
@@ -119,116 +120,120 @@ export default class SearchOverlay {
             .search-button:hover {
                 transform: translateX(3px);
             }
-        `
+        `;
 
-    document.head.appendChild(style)
-    document.body.insertAdjacentHTML('beforeend', searchHTML)
+    document.head.appendChild(style);
+    document.body.insertAdjacentHTML("beforeend", searchHTML);
 
-    this.bindEvents()
+    this.bindEvents();
   }
 
   bindEvents() {
-    const searchBtns = document.querySelectorAll('.search-box-btn')
-    const overlay = document.querySelector('.cherry-search-overlay')
-    const closeBtn = document.querySelector('.search-close')
-    const searchInput = document.querySelector('.search-input')
-    const searchButton = document.querySelector('.search-button')
+    const searchBtns = document.querySelectorAll(".search-box-btn");
+    const overlay = document.querySelector(".cherry-search-overlay");
+    const closeBtn = document.querySelector(".search-close");
+    const searchInput = document.querySelector(".search-input");
+    const searchButton = document.querySelector(".search-button");
 
     // 点击搜索图标，打开搜索框
     searchBtns.forEach((btn) => {
-      btn.addEventListener('click', () => this.openSearch())
-    })
+      btn.addEventListener("click", () => this.openSearch());
+    });
 
     // 点击关闭按钮，清除内容或关闭搜索框
-    closeBtn.addEventListener('click', () => {
+    closeBtn.addEventListener("click", () => {
       if (searchInput.value.trim()) {
-        searchInput.value = ''
-        searchButton.classList.remove('visible')
+        searchInput.value = "";
+        searchButton.classList.remove("visible");
       } else {
-        this.closeSearch(true)
+        this.closeSearch(true);
       }
-    })
+    });
 
     // 点击遮罩层，关闭搜索框但保留内容
-    overlay.addEventListener('click', (e) => {
+    overlay.addEventListener("click", (e) => {
       if (e.target === overlay) {
-        this.closeSearch(false)
+        this.closeSearch(false);
       }
-    })
+    });
 
     // 按下 ESC 键，关闭搜索框但保留内容
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        this.closeSearch(false)
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        this.closeSearch(false);
       }
-    })
+    });
 
     // 输入框内容变化，显示或隐藏搜索按钮
-    searchInput.addEventListener('input', () => {
+    searchInput.addEventListener("input", () => {
       if (searchInput.value.trim()) {
-        searchButton.classList.add('visible')
+        searchButton.classList.add("visible");
       } else {
-        searchButton.classList.remove('visible')
+        searchButton.classList.remove("visible");
       }
-    })
+    });
 
     // 点击搜索按钮，执行搜索
-    searchButton.addEventListener('click', () => this.search())
+    searchButton.addEventListener("click", () => this.search());
 
     // 输入框回车事件，执行搜索
-    searchInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        this.search()
+    searchInput.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") {
+        this.search();
       }
-    })
+    });
   }
 
   openSearch() {
-    const overlay = document.querySelector('.cherry-search-overlay')
-    const searchContainer = document.querySelector('.search-container')
-    overlay.style.display = 'block'
+    const overlay = document.querySelector(".cherry-search-overlay");
+    const searchContainer = document.querySelector(".search-container");
+    overlay.style.display = "block";
 
-    gsap.fromTo(overlay, { opacity: 0 }, { opacity: 1, duration: 0.3 })
-    gsap.fromTo(searchContainer, { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: 'power2.out' })
+    gsap.fromTo(overlay, { opacity: 0 }, { opacity: 1, duration: 0.3 });
+    gsap.fromTo(
+      searchContainer,
+      { y: -50, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.4, ease: "power2.out" },
+    );
 
-    document.querySelector('.search-input').focus()
+    document.querySelector(".search-input").focus();
   }
 
   closeSearch(clearInput = false) {
-    const overlay = document.querySelector('.cherry-search-overlay')
-    const searchContainer = document.querySelector('.search-container')
-    const searchInput = document.querySelector('.search-input')
-    const searchButton = document.querySelector('.search-button')
+    const overlay = document.querySelector(".cherry-search-overlay");
+    const searchContainer = document.querySelector(".search-container");
+    const searchInput = document.querySelector(".search-input");
+    const searchButton = document.querySelector(".search-button");
 
     gsap.to(searchContainer, {
       y: -50,
       opacity: 0,
       duration: 0.3,
-      ease: 'power2.in'
-    })
+      ease: "power2.in",
+    });
 
     gsap.to(overlay, {
       opacity: 0,
       duration: 0.3,
       delay: 0.1,
-      ease: 'power2.in',
+      ease: "power2.in",
       onComplete: () => {
-        overlay.style.display = 'none'
+        overlay.style.display = "none";
         if (clearInput) {
-          searchInput.value = ''
-          searchButton.classList.remove('visible')
+          searchInput.value = "";
+          searchButton.classList.remove("visible");
         }
-      }
-    })
+      },
+    });
   }
 
   search() {
-    const searchInput = document.querySelector('.search-input')
-    const query = encodeURIComponent(searchInput.value.trim())
+    const searchInput = document.querySelector(".search-input");
+    const query = encodeURIComponent(searchInput.value.trim());
     if (query) {
-      const url = `https://docs.cherry-ai.com/cherry-studio?q=${query}&ask=true`
-      window.open(url, '_blank')
-      this.closeSearch(true)
+      const url = `https://docs.cherry-ai.com/cherry-studio?q=${query}&ask=true`;
+      window.open(url, "_blank");
+      this.closeSearch(true);
     }
   }
 }

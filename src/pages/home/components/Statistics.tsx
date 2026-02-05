@@ -1,8 +1,8 @@
-import { FC } from 'react'
-import { useTranslation } from 'react-i18next'
+import { FC } from "react";
+import { useTranslation } from "react-i18next";
 
 const Statistics: FC = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <section className="fun-facts-section">
       <div className="auto-container">
@@ -16,7 +16,9 @@ const Statistics: FC = () => {
                     0
                   </div>
                 </div>
-                <div className="counter-title">{t('statistics.days_online')}</div>
+                <div className="counter-title">
+                  {t("statistics.days_online")}
+                </div>
               </div>
             </div>
           </div>
@@ -30,7 +32,9 @@ const Statistics: FC = () => {
                     0
                   </div>
                 </div>
-                <div className="counter-title">{t('statistics.contributors')}</div>
+                <div className="counter-title">
+                  {t("statistics.contributors")}
+                </div>
               </div>
             </div>
           </div>
@@ -44,14 +48,14 @@ const Statistics: FC = () => {
                     0
                   </div>
                 </div>
-                <div className="counter-title">{t('statistics.stars')}</div>
+                <div className="counter-title">{t("statistics.stars")}</div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Statistics
+export default Statistics;
